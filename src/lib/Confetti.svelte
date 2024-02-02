@@ -1,22 +1,22 @@
 <script>
   import { onMount } from "svelte"
 
-  export let size = 10
-  export let x = [-0.5, 0.5]
-  export let y = [0.25, 1]
-  export let duration = 2000
-  export let infinite = false
-  export let delay = [0, 50]
-  export let colorRange = [0, 360]
-  export let colorArray = []
-  export let amount = 50
-  export let iterationCount = 1
-  export let fallDistance = "100px"
-  export let rounded = false
-  export let cone = false
-  export let noGravity = false
-  export let xSpread = 0.15
-  export let destroyOnComplete = true
+  export let size = 10;
+  export let x = [-0.5, 0.5];
+  export let y = [0.25, 1];
+  export let duration = 2000;
+  export let infinite = false;
+  export let delay = [0, 50];
+  export let colorRange = [0, 360];
+  export let colorArray = [];
+  export let amount = 50;
+  export let iterationCount = 1;
+  export let fallDistance = "100px";
+  export let rounded = false;
+  export let cone = false;
+  export let noGravity = false;
+  export let xSpread = 0.15;
+  export let destroyOnComplete = true;
 
   let complete = false
 
