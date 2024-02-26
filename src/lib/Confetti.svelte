@@ -4,9 +4,9 @@
   export let size = 10;
   export let x = [-0.5, 0.5];
   export let y = [0.25, 1];
-  export let duration = 2000
-  export let infinite = false
-  export let delay = [0, 50]
+  export let duration = 2000;
+  export let infinite = false;
+  export let delay = [0, 50];
   export let colorRange = [0, 360]
   export let colorArray = []
   export let amount = 50
