@@ -7,9 +7,9 @@
   export let duration = 2000;
   export let infinite = false;
   export let delay = [0, 50];
-  export let colorRange = [0, 360]
-  export let colorArray = []
-  export let amount = 50
+  export let colorRange = [0, 360];
+  export let colorArray = [];
+  export let amount = 50;
   export let iterationCount = 1
   export let fallDistance = "100px"
   export let rounded = false
